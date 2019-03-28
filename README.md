@@ -33,7 +33,7 @@ turbobanst is an attempt to build a better keyboard layout, dedicated in typing 
 
 ### WQAZXCV
 
-Best effort will be made to keep the WQAZXCV keys confortable and convenient when used in conjunction with the Cmd / Ctrl key, in order to keep the most used shortcuts simple.
+Best effort will be made to keep the WQAZXCV keys confortable and convenient when used in conjunction with the <kbd>Cmd</kbd> / <kbd>Ctrl</kbd> key, in order to keep the most used shortcuts simple.
 
 ### Brackets ([{<>}])
 
