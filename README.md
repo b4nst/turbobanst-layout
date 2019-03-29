@@ -94,3 +94,5 @@ The metrics extracted are :
 - [Dvorak](https://www.dvorak-keyboard.com)
 - [History of QWERTY](https://en.wikipedia.org/wiki/QWERTY#History)
 - [Workman layout](https://workmanlayout.org)
+- [Topic about keyboard strain](https://geekhack.org/index.php?topic=82183.0)
+- [Online keyboard layout editor](http://www.keyboard-layout-editor.com)
