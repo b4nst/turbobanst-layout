@@ -29,7 +29,7 @@ turbobanst is an attempt to build a better keyboard layout, dedicated in typing 
 
 ## Keyboard strain
 
-A keyboard strain layout has been created to help visualizing where the key will be best placed. This layout is a pure subjective vision on how I feel it's *easy* or *hard* to reach the key. It would be better to have a keyboard strain based on physiological (more globally scientific) facts / studies. Currently I didn't find such a study, all I could find was *how-it-feel* based layouts. If someone has the knowledge to help with a more scientific approach, this could help to actually extend this project to an automatic layout builder (machine learning based) for specific use cases.
+A keyboard strain layout has been created to help visualizing where keys will be best placed. This layout is a pure subjective vision on how I feel it's *easy* or *hard* to reach a key. It would be better to have a keyboard strain layout based on physiologicals (more globally scientifics) facts / studies. Currently I didn't find such a study, all I could find was *how-it-feel* based layouts. If someone has the knowledge to help with a more scientific approach, this could help to actually extends this project to an automatic layout builder (machine learning based).
 
 ![keyboard strain layout](resources/keyboard-strain-layout.png)
 
