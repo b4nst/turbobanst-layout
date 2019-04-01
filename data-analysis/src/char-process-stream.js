@@ -27,8 +27,8 @@ class CharProcessStream extends stream.Writable {
     var result = pipeline
       .zincrby("charcount", 1, char)
       .zincrby("charcount", 1, "total")
-      .zincrby(`charlink:${char}`, 1, this.previousChar)
-      .zincrby(`charlink:${this.previousChar}`, 1, char);
+      .zincrby(`bigram:${char}`, 1, this.previousChar)
+      .zincrby(`bigram:${this.previousChar}`, 1, char);
     this.previousChar = char;
     return result;
   }
