@@ -33,7 +33,7 @@ A keyboard strain layout has been created to help visualizing where keys will be
 
 ![keyboard strain layout](resources/keyboard-strain-layout.png)
 
-> Sources of this keyboard can be find in *resources/keyboard-strain-layout.json* and edited with the help of this [online keyboard layout editor](http://www.keyboard-layout-editor.com)
+> Sources of this layout can be find in *resources/keyboard-strain-layout.json* and edited with the help of this [online keyboard layout editor](http://www.keyboard-layout-editor.com)
 
 ## Bounds
 
