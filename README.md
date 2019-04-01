@@ -11,7 +11,7 @@ A modern keyboard layout for developers
     - [Alternating hands and fingers](#alternating-hands-and-fingers)
     - [WQAZXCV](#wqazxcv)
   - [Brackets ([{<>}])](#brackets)
-  - [About <kbd>CAPSLOCK</kbd>](#about-kbdcapslockkbd)
+  - [About <kbd>CAPSLOCK</kbd> 🤬](#about-kbdcapslockkbd-%F0%9F%A4%AC)
   - [No physical changes](#no-physical-changes)
 - [Data analysis](#data-analysis)
   - [Concepts](#concepts)
@@ -41,7 +41,7 @@ A keyboard strain layout has been created to help visualizing where keys will be
 
 #### Reducing strain
 
-The main goal of this keyboard is to reduce finger / wirst strain and movement during day to day typing. Most used character will be count from a set of code source file, extracted from popular Github repos (using modern languages). 
+The main goal of this keyboard is to reduce finger / wirst strain and movement during day-to-day typing. Most used characters will be counted from code source files, extracted from popular Github repos (using modern languages). 
 
 #### Alternating hands and fingers
 
@@ -49,19 +49,19 @@ Best effort will be made to avoid double tap on a single hand / finger. To achie
 
 #### WQAZXCV
 
-Best effort will be made to keep the WQAZXCV keys confortable and convenient when used in conjunction with the <kbd>Cmd</kbd> / <kbd>Ctrl</kbd> key, in order to keep the most used shortcuts simple.
+Best effort will be made to keep the <kbd>WQ</kbd><kbd>A</kbd><kbd>Z</kbd><kbd>X</kbd><kbd>C</kbd><kbd>V</kbd> keys confortable and convenient when used in conjunction with the <kbd>Cmd</kbd> / <kbd>Ctrl</kbd> key, in order to keep the most used shortcuts simple.
 
 ### Brackets ([{<>}])
 
-On classic keyboard layout (like qwerty) opening brackets and the matching closing bracket are often on 2 adjacents keys. But nowadays, any proper IDE will automatically close the bracket for you as soon as you open it. To be more friendly with that concept, opening bracket and its soulmate will be on the same key. One on the normal layout (open), the other on the <kbd>SHIFT</kbd> layer.
+On classic keyboard layouts (like qwerty) opening brackets and their matching closing brackets are often on 2 adjacents keys. But nowadays, any proper IDE will automatically close the bracket for you as soon as you open it. To be more friendly with that concept, opening bracket and its soulmate will be on the same key. One on the normal layout (open), the other on the <kbd>SHIFT</kbd> layer.
 
-### About <kbd>CAPSLOCK</kbd>
+### About <kbd>CAPSLOCK</kbd> 🤬
 
 Choice has been made to remove (or at least send it to an *fn layout*) the caps lock key. Why is that ? Because average usage of the caps lock key for chill people is very low. It would be more convenient, as first implemented in [Colemak layout](https://colemak.com) to replace the caps lock key by a second - left handed - backspace.
 
 ### No physical changes
 
-Although the ergonomics of a classic computer keyboard is questionable, the goal here is not to reevent a physical keyboard. The base of the layout will be a 60% ansi (61 keys) keyboard, to be compatible with most of the keyboards currently on the market.
+Although the ergonomics of a classic computer keyboard is questionable, the goal here is not to reinvent a physical keyboard. The base of the layout will be a 60% ansi (61 keys) keyboard, to be compatible with most of the keyboards currently on the market.
 
 ## Data analysis
 
@@ -72,7 +72,7 @@ In order to help with key placement, a bunch of modern source code taken from fe
 The metrics extracted are :
 
 - Count of apparition for each character (including blank ones)
-- Count of  bigrams (adjacent character)
+- Count of bigrams (adjacent character)
 
 ### Complete list of repo used
 
