@@ -3,9 +3,8 @@
 A modern keyboard layout for developers
 
 - [TL;DR](#tldr)
-- [A bit of lecture](#a-bit-of-lecture)
-  - [History](#history)
-  - [Keyboard strain map](#keyboard-strain-map)
+- [History](#history)
+- [Keyboard strain](#keyboard-strain)
 - [Bounds](#bounds)
   - [Key distribution](#key-distribution)
     - [Reducing strain](#reducing-strain)
@@ -24,15 +23,17 @@ A modern keyboard layout for developers
 
 turbobanst is an attempt to build a better keyboard layout, dedicated in typing modern code.
 
-## A bit of lecture
-
-### History
+## History
 
 *W.I.P.*
 
-### Keyboard strain map
+## Keyboard strain
 
-*W.I.P.*
+A keyboard strain layout has been created to help visualizing where the key will be best placed. This layout is a pure subjective vision on how I feel it's *easy* or *hard* to reach the key. It would be better to have a keyboard strain based on physiological (more globally scientific) facts / studies. Currently I didn't find such a study, all I could find was *how-it-feel* based layouts. If someone has the knowledge to help with a more scientific approach, this could help to actually extend this project to an automatic layout builder (machine learning based) for specific use cases.
+
+![keyboard strain layout](resources/keyboard-strain-layout.png)
+
+> Sources of this keyboard can be find in *resources/keyboard-strain-layout.json* and edited with the help of this [online keyboard layout editor](http://www.keyboard-layout-editor.com)
 
 ## Bounds
 
