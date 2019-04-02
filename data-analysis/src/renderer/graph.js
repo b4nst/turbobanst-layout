@@ -43,7 +43,7 @@ const m0 = {
               .id(d => d.id)
               .strength(l => l.value / 100)
           )
-          .force("collision", d3.forceCollide().radius(d => d.radius / 5))
+          .force("collision", d3.forceCollide().radius(d => d.percentage))
           .force("charge", d3.forceManyBody())
           .force("center", d3.forceCenter(width / 2, height / 2));
 
@@ -67,7 +67,7 @@ const m0 = {
 
         node
           .append("circle")
-          .attr("r", d => d.radius / 5)
+          .attr("r", d => d.percentage)
           .attr("fill", color);
 
         node
@@ -76,7 +76,7 @@ const m0 = {
           .attr("fill", "#black")
           .attr("dy", ".3em")
           .attr("font-family", "helvetica")
-          .attr("font-size", d => `${d.radius / 50}em`)
+          .attr("font-size", d => `${d.percentage / 10}em`)
           .text(d => d.id);
 
         simulation.on("tick", () => {

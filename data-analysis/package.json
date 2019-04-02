@@ -14,8 +14,8 @@
   "scripts": {
     "clean": "rimraf build",
     "prepare": "mkdir -p build",
-    "extract": "node extractor/index.js",
-    "reduce": "node reducer/index.js",
+    "extract": "node src/extractor/index.js",
+    "reduce": "node src/reducer/index.js",
     "render": "cp src/renderer/* build/",
     "run": "run-s clean prepare extract reduce render"
   }
