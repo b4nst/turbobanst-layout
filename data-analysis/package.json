@@ -4,19 +4,21 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "cpy-cli": "^2.0.0",
     "event-to-promise": "^0.8.0",
     "ioredis": "^4.9.0",
     "lodash": "^4.17.11",
+    "make-dir-cli": "^2.0.0",
     "npm-run-all": "^4.1.5",
     "readdirp": "^2.2.1",
     "rimraf": "^2.6.3"
   },
   "scripts": {
     "clean": "rimraf build",
-    "prepare": "mkdir -p build",
+    "prepare": "make-dir build",
     "extract": "node src/extractor/index.js",
     "reduce": "node src/reducer/index.js",
-    "render": "cp src/renderer/* build/",
+    "render": "cpy src/renderer/* build/",
     "run": "run-s clean prepare extract reduce render"
   }
 }
