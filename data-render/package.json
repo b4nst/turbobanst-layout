@@ -1,9 +1,0 @@
-{
-  "name": "force-directed-graph",
-  "main": "force-directed-graph.js",
-  "version": "132.0.0",
-  "author": {
-    "name": "Mike Bostock",
-    "url": "https://observablehq.com/@mbostock"
-  }
-}

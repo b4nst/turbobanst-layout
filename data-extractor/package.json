@@ -1,9 +1,0 @@
-{
-  "name": "data-extractor",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "dependencies": {
-    "ioredis": "^4.9.0"
-  }
-}

@@ -7,7 +7,7 @@ const writeFile = util.promisify(fs.writeFile);
 const redis = new Redis();
 
 getGraph(redis)
-  .then(graph => writeFile("../data-render/data2.json", JSON.stringify(graph)))
+  .then(graph => writeFile("build/data.json", JSON.stringify(graph)))
   .then(() => redis.quit())
   .then(() => console.log("Done"))
   .catch(console.error);
