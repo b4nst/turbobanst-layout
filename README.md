@@ -19,6 +19,7 @@ A modern keyboard layout for developers
   - [Results](#results)
     - [Most used characters and their bigrams](#most-used-characters-and-their-bigrams)
     - [Character map](#character-map)
+- [Finally... turbobanst](#finally-turbobanst)
 - [Sources](#sources)
 
 ## TL;DR
@@ -35,7 +36,7 @@ A keyboard strain layout has been created to help visualizing where keys will be
 
 ![keyboard strain layout](resources/keyboard-strain-layout.png)
 
-> Sources of this layout can be find in [keyboard-strain-layout.json](resources/keyboard-strain-layout.json) and edited with the help of this [online keyboard layout editor](http://www.keyboard-layout-editor.com)
+> Sources of this layout can be find in [keyboard-strain-layout.json](resources/keyboard-strain-layout.json) and edited with the help of this [online keyboard layout editor](http://www.keyboard-layout-editor.com/##@_backcolor=%23ffffff&name=Keyboard%20strain&author=Banst%3B&@_c=%23878d91&t=%23ff0000&a:7%3B&=12&=10&_t=%23ff2f00%3B&=7&_t=%23ff7700%3B&=6&_t=%23ffa800%3B&=5&=5&_t=%23ff0000%3B&=9&_c=%23545454&t=%23000000%3B&=9&_t=%23ffa800%3B&=5&=5&_t=%23ff7700%3B&=6&_t=%23ff2f00%3B&=7&_t=%23ff0000%3B&=10&_w:2%3B&=12%3B&@_c=%23878d91&t=%23ff2f00&w:1.5%3B&=7&_t=%23ffa800%3B&=5&_t=%2383c445%3B&=3&=3&_t=%23f9ff00%3B&=4&_t=%23ff7700%3B&=6&_c=%23a8a89e&t=%23ff2f00%3B&=7&_c=%23545454&t=%23ff7700%3B&=6&_t=%23f9ff00%3B&=4&_t=%2383c445%3B&=3&=3&_t=%23ffa800%3B&=5&_t=%23ff2f00%3B&=7&_t=%23ff0000&w:1.5%3B&=9%3B&@_c=%23878d91&t=%23ff7700&w:1.75%3B&=6&_t=%2383c445%3B&=3&_t=%23519c5f%3B&=2&_t=%2313ff00%3B&=1&=1&_t=%23ffa800%3B&=5&_c=%23545454%3B&=5&_t=%2313ff00%3B&=1&=1&_t=%23519c5f%3B&=2&_t=%2383c445%3B&=3&_t=%23ff7700%3B&=6&_t=%23ff1f00&w:2.25%3B&=8%3B&@_c=%23878d91&t=%23ff2f00&w:2.25%3B&=7&_t=%23ffa800%3B&=5&_t=%23f9ff00%3B&=4&_t=%2383c445%3B&=3&_t=%23ffa800%3B&=5&_c=%23a8a89e&t=%23ff2f00%3B&=7&_c=%23545454&t=%23ffa800%3B&=5&_t=%2383c445%3B&=3&_t=%23f9ff00%3B&=4&_t=%23ffa800%3B&=5&_t=%23ff2f00%3B&=7&_t=%23ff1f00&w:2.75%3B&=8%3B&@_c=%23878d91&t=%23000000&w:1.25%3B&=&_w:1.25%3B&=&_w:1.25%3B&=&_c=%23a8a89e&t=%2300ff1b&w:6.25%3B&=1&_c=%23545454&t=%23000000&w:1.25%3B&=&_w:1.25%3B&=&_w:1.25%3B&=&_w:1.25%3B&=)
 
 ## Bounds
 
@@ -399,6 +400,10 @@ The following screenshot is a [force direct graph](https://observablehq.com/@d3/
 ![](resources/charmap.png)
 
 This graph show the most used characters (radius of circle is proportional to character appearance) and links (bigrams) between them. The dynamic version is usefull to distribute character across left and right hand (when you drag a character, the ones following it close are the ones that should be on a different hand).
+
+## Finally... turbobanst
+
+![](resources/turbobanst-layout.png)
 
 ## Sources
 
