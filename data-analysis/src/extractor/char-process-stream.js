@@ -43,7 +43,10 @@ class CharProcessStream extends stream.Writable {
           char > this.previousChar
             ? `${this.previousChar}${constants.SPLIT_CHARACTER}${char}`
             : `${char}${constants.SPLIT_CHARACTER}${this.previousChar}`;
-        this.pipeline.zincrby("bigram", 1, bigram);
+        this.pipeline
+          .zincrby("bigram", 1, bigram)
+          .zincrby(`bigram:${this.previousChar}`, 1, char)
+          .zincrby(`bigram:${char}`, 1, this.previousChar);
       }
     }
     this.previousChar = char;
