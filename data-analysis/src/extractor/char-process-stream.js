@@ -1,5 +1,6 @@
 const stream = require("stream");
 const _ = require("lodash");
+const constants = require("../helpers/constants");
 
 const FLUSH_EVERY = 100000;
 
@@ -39,9 +40,9 @@ class CharProcessStream extends stream.Writable {
 
       if (souldCharBeCounted(this.previousChar)) {
         const bigram =
-          this.previousChar > char
-            ? `${this.previousChar}:${char}`
-            : `${char}:${this.previousChar}`;
+          char > this.previousChar
+            ? `${this.previousChar}${constants.SPLIT_CHARACTER}${char}`
+            : `${char}${constants.SPLIT_CHARACTER}${this.previousChar}`;
         this.pipeline.zincrby("bigram", 1, bigram);
       }
     }
