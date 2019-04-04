@@ -7,6 +7,8 @@ const PANDA_THEME_COLORS = [
   "#7DC1FF"
 ];
 
+const radius = d => d.percentage;
+
 const m0 = {
   id: "a6c00e65f7fa1@1",
   variables: [
@@ -41,9 +43,9 @@ const m0 = {
             d3
               .forceLink(links)
               .id(d => d.id)
-              .strength(l => l.value / 100)
+              .strength(l => Math.pow(l.value, 3))
           )
-          .force("collision", d3.forceCollide().radius(d => d.percentage))
+          .force("collision", d3.forceCollide().radius(radius))
           .force("charge", d3.forceManyBody())
           .force("center", d3.forceCenter(width / 2, height / 2));
 
@@ -56,7 +58,7 @@ const m0 = {
           .selectAll("line")
           .data(links)
           .join("line")
-          .attr("stroke-width", d => Math.sqrt(d.value / 100));
+          .attr("stroke-width", d => Math.sqrt(d.value));
 
         const node = svg
           .append("g")
@@ -67,7 +69,7 @@ const m0 = {
 
         node
           .append("circle")
-          .attr("r", d => d.percentage)
+          .attr("r", radius)
           .attr("fill", color);
 
         node
@@ -76,7 +78,7 @@ const m0 = {
           .attr("fill", "#black")
           .attr("dy", ".3em")
           .attr("font-family", "helvetica")
-          .attr("font-size", d => `${d.percentage / 10}em`)
+          .attr("font-size", d => `${radius(d) / 10}em`)
           .text(d => d.id);
 
         simulation.on("tick", () => {
@@ -104,7 +106,7 @@ const m0 = {
     {
       name: "height",
       value: function() {
-        return 600;
+        return 800;
       }
     },
     {
