@@ -3,7 +3,7 @@
 A modern keyboard layout for developers
 
 - [TL;DR](#tldr)
-- [History](#history)
+- [Why](#why)
 - [Keyboard strain](#keyboard-strain)
 - [Bounds](#bounds)
   - [Key distribution](#key-distribution)
@@ -19,16 +19,19 @@ A modern keyboard layout for developers
   - [Results](#results)
     - [Most used characters and their bigrams](#most-used-characters-and-their-bigrams)
     - [Character map](#character-map)
-- [Finally... turbobanst](#finally-turbobanst)
 - [Sources](#sources)
 
 ## TL;DR
 
 turbobanst is an attempt to build a better keyboard layout, dedicated in typing modern code.
 
-## History
+## Why
 
-*W.I.P.*
+turbobanst is a [keyboard layout](https://en.wikipedia.org/wiki/Keyboard_layout) which try to achieve a better key placement for software development. This layout is based on a keyboard strain layout built around the home row (c.f. [touch typing](https://en.wikipedia.org/wiki/Touch_typing)) cross-referenced with the most used characters and bigrams in modern source code languages. Currently the layout is in early stage, with only a macOS native layout. Roadmap inlclude a release of native Linux (most used distrib) and Windows layout. Tierce remapping software must be avoid. A template to print custom keycap will be released soon too.
+
+The layout
+
+![](resources/turbobanst-layout.png)
 
 ## Keyboard strain
 
@@ -400,10 +403,6 @@ The following screenshot is a [force direct graph](https://observablehq.com/@d3/
 ![](resources/charmap.png)
 
 This graph show the most used characters (radius of circle is proportional to character appearance) and links (bigrams) between them. The dynamic version is usefull to distribute character across left and right hand (when you drag a character, the ones following it close are the ones that should be on a different hand).
-
-## Finally... turbobanst
-
-![](resources/turbobanst-layout.png)
 
 ## Sources
 
