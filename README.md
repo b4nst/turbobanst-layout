@@ -27,7 +27,7 @@ turbobanst is an attempt to build a better keyboard layout, dedicated in typing 
 
 ## Why
 
-turbobanst is a [keyboard layout](https://en.wikipedia.org/wiki/Keyboard_layout) which try to achieve a better key placement for software development. This layout is based on a keyboard strain layout built around the home row (c.f. [touch typing](https://en.wikipedia.org/wiki/Touch_typing)) cross-referenced with the most used characters and bigrams in modern source code languages. Currently the layout is in early stage, with only a macOS native layout. Roadmap inlclude a release of native Linux (most used distrib) and Windows layout. Tierce remapping software must be avoid. A template to print custom keycap will be released soon too.
+turbobanst is a [keyboard layout](https://en.wikipedia.org/wiki/Keyboard_layout) which try to achieve a better key placement for software development. This layout is based on a keyboard strain layout built around the home row (c.f. [touch typing](https://en.wikipedia.org/wiki/Touch_typing)) cross-referenced with the most used characters and bigrams in modern source code languages. Currently the layout is in early stage, with only a macOS native layout. Roadmap inlclude a release of native - no remapping software should be used - Linux (most used distrib) and Windows layout, a template to print custom keycap and ramp-up learning results. 
 
 The layout
 
