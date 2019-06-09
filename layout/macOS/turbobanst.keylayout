@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 3.3.0.249 on 2019-04-05 at 10:38 (CEST)-->
-<!--Last edited by Ukelele version 3.3.0.249 on 2019-06-09 at 14:10 (CEST)-->
+<!--Last edited by Ukelele version 3.3.0.249 on 2019-06-09 at 16:10 (CEST)-->
 <keyboard group="126" id="-7905" name="turbobanst" maxout="2">
     <layouts>
         <layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
@@ -298,7 +298,7 @@
             <key code="46" output="π"/>
             <key code="47" output="≠"/>
             <key code="48" output="&#x0009;"/>
-            <key code="49" output=""/>
+            <key code="49" output=" "/>
             <key code="50" action="grave"/>
             <key code="51" output="&#x0008;"/>
             <key code="53" output="&#x001B;"/>
@@ -508,7 +508,7 @@
             <key code="46" output="p"/>
             <key code="47" output="="/>
             <key code="48" output="&#x0009;"/>
-            <key code="49" output=""/>
+            <key code="49" output=" "/>
             <key code="50" output="`"/>
             <key code="51" output="&#x0008;"/>
             <key code="53" output="&#x001B;"/>
@@ -718,7 +718,7 @@
             <key code="46" output="p"/>
             <key code="47" output="/"/>
             <key code="48" output="&#x0009;"/>
-            <key code="49" output=""/>
+            <key code="49" output=" "/>
             <key code="50" output="~"/>
             <key code="51" output="&#x0008;"/>
             <key code="53" output="&#x001B;"/>
